@@ -282,3 +282,25 @@ color: #a4a4a4;
  }
 
  /*----------------MEDIA QUERYS------------*/
+ @media screen and (max-width:800px) {
+   header .menu{
+      text-align: center;
+     }
+     .main .proyectos .contenedor-proyectos .trabajo{
+      width: 46%;
+
+     }
+   
+ }
+ @media screen and (max-width:500px){
+   header .contenedor-texto .texto .nombre{
+      font-size: 35px;
+   }
+   header .contenedor-texto .texto .profesion{
+      font-size: 18px;
+   }
+   footer .redes-sociales .contenedor{
+      flex-wrap: nowrap;
+      padding: 20px 0;
+   }
+ }
