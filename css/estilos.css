@@ -292,8 +292,15 @@ color: #a4a4a4;
      }
      .main .proyectos .contenedor-proyectos .trabajo{
       width: 46%;
-
-     }
+    }
+    .main .sobre-mi .contenedor .foto img{
+      width: 200px;
+      margin-top: 100px;
+    }
+    .main .tecnologias,
+    .main .proyectos{
+      width: 100%;
+    }
    
  }
  @media screen and (max-width:500px){
